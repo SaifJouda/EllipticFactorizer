@@ -1,0 +1,16 @@
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\bin\Debug\net5.0\factorizer.exe
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\bin\Debug\net5.0\factorizer.deps.json
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\bin\Debug\net5.0\factorizer.runtimeconfig.json
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\bin\Debug\net5.0\factorizer.runtimeconfig.dev.json
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\bin\Debug\net5.0\factorizer.dll
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\bin\Debug\net5.0\ref\factorizer.dll
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\bin\Debug\net5.0\factorizer.pdb
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.csproj.AssemblyReference.cache
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.AssemblyInfoInputs.cache
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.AssemblyInfo.cs
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.csproj.CoreCompileInputs.cache
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.dll
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\ref\factorizer.dll
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.pdb
+C:\Users\saifj\Desktop\Math 3159\project\factorizer\obj\Debug\net5.0\factorizer.genruntimeconfig.cache
