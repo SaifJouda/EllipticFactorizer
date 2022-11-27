@@ -100,6 +100,7 @@ namespace factorizer
 
         static long lenstraFactor(long n)
         {
+            //Create random elliptic curve
             long limit=1000;
             long gcd=n;
             long x0=randLong(n-1);
@@ -123,7 +124,9 @@ namespace factorizer
             }
             //If we are lucky individuals
             if(gcd>1) return gcd;
+            //Create a list of primes
             List<long> primes = primeSieve(limit);
+            //
             long[] q = new long[]{x0,y0,1};
             for(int i=0; i<primes.Count;i++)
             {
@@ -140,9 +143,19 @@ namespace factorizer
 
         static void returnFactors(long n)
         {
+            int i=1;
             long p = lenstraFactor(n);
+            while(p==0 & i<100)
+            {
+                p = lenstraFactor(n);
+                i++;
+            }
             if(p==0) Console.WriteLine("No factors found");
-            else Console.WriteLine(p+" , "+n/p);
+            else 
+            {
+                Console.WriteLine("p= "+p+" , q= "+n/p);  
+                Console.WriteLine("Attempts: "+i);
+            }
         }
 
         static bool menu()
@@ -153,7 +166,7 @@ namespace factorizer
             Stopwatch sw;
             sw = Stopwatch.StartNew();
             returnFactors(entered);
-            Console.WriteLine(sw.ElapsedMilliseconds+" ms");
+            Console.WriteLine("Time: "+sw.ElapsedMilliseconds+" ms");
             sw.Stop();
             return true;
         }
